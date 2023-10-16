@@ -24,4 +24,19 @@ The animal at that index is Dog
 
 
 
-animals =
+animals = ["cat", "fish", "dog", "bear", "turtle"]
+
+
+for i in range(0,5):
+    num = int(input("enter a number 0-4: "))
+    if 0 <= num < len(animals):
+        animal = animals[num]
+        print(f"the animal is {animal}")
+
+    else:
+        print("the number is out of range")
+
+
+
+
+
